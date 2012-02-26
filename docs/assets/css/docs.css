@@ -12,9 +12,11 @@ body {
   position: relative;
   padding-top: 90px;
   background-color: #fff;
-  /* background-image: url(../img/grid-18px-masked.png); 
-  background-repeat: repeat-x; */
-  background-position: 0 40px;
+  background: url(../img/vintage_paper_background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 
@@ -271,7 +273,7 @@ hr.soften {
 }
 .footer p {
   margin-bottom: 0;
-  color: #555;
+  color: #fff;
 }
 
 
@@ -505,7 +507,7 @@ h2 + .row {
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
-  color: #999;
+  color: #fff;
   text-align: center;
 }
 
