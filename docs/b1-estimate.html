@@ -88,33 +88,101 @@
   <p class="lead">We've included a few basic examples as starting points for your work with Bootstrap. We encourage folks to iterate on these examples and not simply use them as an end result.</p>
 </header>
 
+<br/>
 
-<ul class="thumbnails bootstrap-examples">
-  <li class="span4">
-    <a class="thumbnail" href="examples/hero.html">
-      <img src="assets/img/examples/bootstrap-example-hero.jpg" alt="">
-    </a>
-    <h3>Image One</h3>
-    <p>Featuring a hero unit for a primary message and three supporting elements.</p>
-  </li>
-  <li class="span4">
-    <a class="thumbnail" href="examples/fluid.html">
-      <img src="assets/img/examples/bootstrap-example-fluid.jpg" alt="">
-    </a>
-    <h3>Image Two</h3>
-    <p>Uses our new responsive, fluid grid system to create seamless liquid layout.</p>
-  </li>
-  <li class="span4">
-    <a class="thumbnail" href="examples/starter-template.html">
-      <img src="assets/img/examples/bootstrap-example-starter.jpg" alt="">
-    </a>
-    <h3>Image Three</h3>
-    <p>A barebones HTML document with all the Bootstrap CSS and javascript included.</p>
-  </li>
-</ul>
+  <div class="row">		
+    <div class="span8">
+      <form class="form-horizontal">
+        <fieldset>
+          <legend>Please fill out the following form for estimate inquiries</legend>
+          <div class="control-group">
+            <label class="control-label" for="name"><strong>Name</strong>*</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="name">              
+            </div>
+          </div>       
+		  <div class="control-group">
+            <label class="control-label" for="phone"><strong>Phone</strong>*</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="phone">              
+            </div>
+          </div>       		
+		  <div class="control-group">
+            <label class="control-label" for="email"><strong>Email</strong></label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="email">              
+            </div>
+          </div>       		  
+		  <div class="control-group">
+            <label class="control-label" for="name"><strong>Address</strong></label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="name">              
+            </div>
+          </div>  
+		  <div class="control-group">
+            <label class="control-label" for="name"><strong>City</strong></label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="name">              
+            </div>
+          </div>    
+		  <div class="control-group">
+            <label class="control-label" for="name"><strong>State</strong></label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="name">              
+            </div>
+          </div>       
+		  <div class="control-group">
+            <label class="control-label" for="optionsCheckbox"><strong>Property Category</strong></label>
+            <div class="controls">
+              <label class="checkbox help-block">
+                <input type="checkbox" id="optionsCheckbox" value="residential">
+                Residential
+              </label>
+			  <label class="checkbox help-block">
+                <input type="checkbox" id="optionsCheckbox" value="commercial">
+                Commercial
+              </label>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="multiSelect"><strong>Select Services</strong></label>
+            <div class="controls">
+              <select multiple="multiple" id="multiSelect">
+                <option>Mowing</option>
+                <option>Snow Removal</option>
+                <option>Gutter Cleaning</option>
+                <option>Clean up</option>                
+              </select>
+			  <p class="help-block">Select multiple services by holding the <strong><i>ctrl</i></strong> key and selecting each service</p>
+            </div>
+          </div>          
+          <div class="control-group">
+            <label class="control-label" for="textarea"><strong>Comments/Questions</strong></label>
+            <div class="controls">
+              <textarea class="input-xlarge" id="textarea" rows="5"></textarea>
+            </div>
+          </div>
+		  <div class="control-group">
+            <label class="control-label" for="optionsCheckbox"><strong>Be a subscriber</strong></label>
+            <div class="controls">
+              <label class="checkbox help-block">
+                <input type="checkbox" id="optionsCheckbox" value="optin">
+                Select if you would like to opt-in to our email list.
+              </label>
+            </div>
+          </div>      
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            <button class="btn">Cancel</button>
+          </div>
+        </fieldset>
+      </form>
+	</div>
+</div>
 
 <hr class="soften">
   
+  <div class="marketing">
   <div class="row">
     <div class="span3">
       <img class="bs-icon" src="assets/img/glyphicons/glyphicons_242_google_maps.png">
@@ -148,6 +216,7 @@
       <p>Have a Twitter account, then follow us at <a href="http://twitter.com">@basic1</a>.</p>
     </div>
   </div><!--/row-->
+</div>
 
      <!-- Footer
       ================================================== -->
